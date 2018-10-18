@@ -1,0 +1,7 @@
+{
+  "name": "cocoon",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
