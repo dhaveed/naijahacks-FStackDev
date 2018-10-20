@@ -43,6 +43,9 @@
                 "input": "src/styles/bulma.min.css"
               },
               {
+                "input": "src/styles/themify-icons.css"
+              },
+              {
                 "input": "src/styles/bootstrap.min.css"
               }
             ],

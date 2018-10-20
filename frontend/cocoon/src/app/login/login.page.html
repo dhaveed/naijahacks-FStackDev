@@ -1,9 +1,52 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content padding>
+  <div class="colums main-area">
+    <div class="column is-12 title-block">
+      <h2 class="title" semiBold>
+        iFitFarm
+      </h2>
+      <span class="subtitle text-primary-faded">
+        Please login to continue
+      </span>
+    </div>
 
+
+    <div class="column is-12 login-area" margin padding>
+      <ion-list>
+        <ion-item>
+          <label floating>
+            <i class="ti-user"></i>
+          </label>
+          <ion-input type="email" placeholder="Email"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <label floating>
+            <i class="ti-lock"></i>
+          </label>
+          <ion-input type="password" placeholder="Password"></ion-input>
+        </ion-item>
+
+        <ion-row margin-top>
+            <p class="text-primary-faded text-center" style="margin-left: auto; margin-right: auto;">
+                <a routerLink="/reset-password">I forgot my password</a>
+            </p>
+        </ion-row>
+
+        <ion-row margin>
+          <button class="button button-gradient">
+            Login
+          </button>
+        </ion-row>
+
+      </ion-list>
+    </div>
+  </div>
+
+  <ion-row>
+    <div class="column is-12 page-bottom text-center" margin padding>
+      <span class="text-center">
+        Don't have an account? <a routerLink="/register">Sign Up</a>
+      </span>
+    </div>
+  </ion-row>
 </ion-content>
