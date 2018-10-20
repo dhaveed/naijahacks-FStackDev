@@ -58,7 +58,7 @@ final class UserAuthController{
                     $updateLoginInfo = $this->db->prepare("UPDATE em_admins SET last_login = ?, last_ip = ? WHERE email = ?");
                     if($updateLoginInfo->execute([$loginTime, $ipAddr, $uEmail])){
                         $updateSessID = $this->db->prepare("UPDATE em_admins SET session_id = ? WHERE email = ?");
-                        if($updateSessID->execute([$this->session::id(), $uEmail])){
+                        if($updateSessID->execute([$this->session->id(), $uEmail])){
                             $this->session->set('u', ['fn' => $udet['fullname'], 'email' => $udet['email'], 'stat' => $udet['status'], 'lid' => $udet['login_id']]);
                             $data = ['message' => "Login successful."];
                         } else {
@@ -89,7 +89,7 @@ final class UserAuthController{
 
         if($exists){
             if($currentSessHash->execute(['', $currentUser])){
-                $this->session::destroy();
+                $this->session->destroy();
                 $data = ['message' => "Logout Successful."];
             } else {
                 $data = ['message' => "An unexpected error occurred while logging out."];
@@ -106,7 +106,7 @@ final class UserAuthController{
         $exists = $this->session->exists('u');
         if($exists){
             $session = $this->session->get('u');
-            $data = ['message' => $session, 'sessId' => $this->session::id()];
+            $data = ['message' => $session, 'sessId' => $this->session->id()];
         } else {
             $data = ['message' => "You're not logged in."];
             return $this->view->render($request, $response, $data, 401);
@@ -119,7 +119,7 @@ final class UserAuthController{
         if($sessionExists){
             $session = $this->session->get('u');
             $verifyFromDb = $this->db->prepare('SELECT * FROM em_admins WHERE email = ? and session_id = ? LIMIT 1');
-            if($verifyFromDb->execute([$session['email'], $this->session::id()])){
+            if($verifyFromDb->execute([$session['email'], $this->session->id()])){
                 if($verifyFromDb->rowCount() == 0){
                     $data = ['message' => "You're logged in."];
                 }
