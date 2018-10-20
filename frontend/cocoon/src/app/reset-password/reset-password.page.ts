@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController, MenuController  } from '@ionic/angular';
 
 @Component({
   selector: 'app-reset-password',
@@ -7,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResetPasswordPage implements OnInit {
 
-  constructor() { }
+  constructor(
+    public menuCtrl: MenuController, 
+    public navCtrl: NavController
+    ){
+      this.menuCtrl.enable(false, 'appSidebar');
+    }
 
   ngOnInit() {
   }

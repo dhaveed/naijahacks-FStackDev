@@ -1,9 +1,64 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>register</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content padding>
+    <div class="colums main-area">
+      <div class="column is-12 title-block">
+        <h2 class="title" semiBold>
+          iFitFarm
+        </h2>
+        <span class="subtitle text-primary-faded">
+          Please login to continue
+        </span>
+      </div>
+  
+  
+      <div class="column is-12 login-area" margin-bottom>
+        <ion-list>
+          <ion-item style="margin-top: 2px;">
+            <label floating>
+              <i class="ti-user"></i>
+            </label>
+            <ion-input type="text" placeholder="Full name"></ion-input>
+            <span class="focus-border"></span>
+          </ion-item>
 
-</ion-content>
+          <ion-item>
+            <label floating>
+              <i class="ti-email"></i>
+            </label>
+            <ion-input type="email" placeholder="Email"></ion-input>
+            <span class="focus-border"></span>
+          </ion-item>
+
+          <ion-item>
+            <label floating>
+              <i class="ti-mobile"></i>
+            </label>
+            <ion-input type="phone" placeholder="Phone"></ion-input>
+            <span class="focus-border"></span>
+          </ion-item>
+  
+          <ion-item>
+            <label floating>
+              <i class="ti-lock"></i>
+            </label>
+            <ion-input type="password" placeholder="Password"></ion-input>
+            <span class="focus-border"></span>
+          </ion-item>
+  
+          <ion-row margin>
+            <button class="button button-gradient">
+              Create an account
+            </button>
+          </ion-row>
+  
+        </ion-list>
+      </div>
+      <ion-row margin-top>
+        <div class="column is-12 page-bottom text-center" margin padding>
+          <span class="text-center">
+            Already have an account? <a routerLink="/login">Login</a>
+          </span>
+        </div>
+      </ion-row>
+    </div>
+  </ion-content>
+  

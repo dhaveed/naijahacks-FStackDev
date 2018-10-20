@@ -19,7 +19,8 @@ const routes: Routes = [
   { path: 'splash', loadChildren: './splash/splash.module#SplashPageModule' },
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'register', loadChildren: './register/register.module#RegisterPageModule' },
-  { path: 'reset-password', loadChildren: './reset-password/reset-password.module#ResetPasswordPageModule' }
+  { path: 'reset-password', loadChildren: './reset-password/reset-password.module#ResetPasswordPageModule' },
+  { path: 'marketplace', loadChildren: './marketplace/marketplace.module#MarketplacePageModule' }
 ];
 
 @NgModule({

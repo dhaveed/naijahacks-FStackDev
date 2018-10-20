@@ -52,9 +52,10 @@ ion-content{
     width: 90%;
     margin-top: 10%;
     display: block;
-    p{
+    span{
         margin-left: auto;
         margin-right: auto;
+        opacity: 0.5;
     }
 }
 
@@ -70,6 +71,7 @@ ion-list{
     box-shadow: none;
     background: none
 }
+
 
 ion-input, ion-item{
     background: none !important;
@@ -123,9 +125,10 @@ a{
 
 ion-input{
     margin-left: 5%;
+    margin-bottom: 3%;
 }
 
-input ~ .focus-border {
+ion-input ~ .focus-border {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -133,8 +136,8 @@ input ~ .focus-border {
     height: 2px;
     z-index: 99;
   }
-  input ~ .focus-border:before,
-  input ~ .focus-border:after {
+  ion-input ~ .focus-border:before,
+  ion-input ~ .focus-border:after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -144,12 +147,12 @@ input ~ .focus-border {
     background-color: #3399ff;
     transition: 0.4s;
   }
-  .input ~ .focus-border:after {
+  ion-input ~ .focus-border:after {
     left: auto;
     right: 0;
   }
-  .input:focus ~ .focus-border:before,
-  .input:focus ~ .focus-border:after {
+  ion-input:focus ~ .focus-border:before,
+  ion-input:focus ~ .focus-border:after {
     width: 50%;
     transition: 0.4s;
   }
