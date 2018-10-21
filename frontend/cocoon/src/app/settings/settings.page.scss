@@ -1,0 +1,59 @@
+$white: #fff;
+$accent: #2EEED0;
+$primary: #4B4173;
+ion-content{
+    height: 100vh;
+    padding-top: 30%;
+}
+[semiBold]{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.main-area{
+    margin-top: 15%;
+}
+
+.text-primary-faded{
+    color: $primary;
+    opacity: 0.9;
+}
+.fade-text{
+    color: #ccc;
+}
+span[right]{
+    float: right;
+}
+
+.settings-label{
+    // font-family: Poppins;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #ccc;
+
+}
+.settings-label::after{
+    margin: 0px;
+    padding: 0px;
+}
+
+.settings-text{
+    color:#565656;
+    font-size: 18px;
+    font-weight: 500;
+}
+.edit{
+    color: #31E995;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* .circle{
+    max-height: 30px;
+    max-width: 30px;
+    border-radius: 50px;
+    background: #ccc;
+} */
+
