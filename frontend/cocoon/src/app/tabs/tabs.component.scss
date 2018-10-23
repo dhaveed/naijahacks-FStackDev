@@ -1,0 +1,16 @@
+ion-tabs{
+    background: #fff;
+    // max-width: 90%;
+    ion-tab{
+        position: absolute;
+        bottom: 50px;
+    }
+    ion-tab:last-child{
+        // background: rgb(187, 133, 133) !important;
+    }
+}
+
+ion-tabbar{
+    position: absolute;
+    bottom: 5px;
+}

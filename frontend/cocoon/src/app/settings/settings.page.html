@@ -1,14 +1,7 @@
-<!-- <ion-header>
-  <ion-toolbar>
-    <ion-title>Settings</ion-title>
-    
-  </ion-toolbar>
-</ion-header> -->
-
 <ion-content padding>
   <div class="main-area">
-    <span left style="background: transparent;" padding>
-      <i class="ti-arrow-left" style="font-weight: 800; background: transparent;"></i>
+    <span left style="background: transparent;" padding routerLink="/login">
+      <i class="ti-arrow-left" style="font-weight: 800; background: transparent; font-size: 1.5em; opacity: 0.8;"></i>
     </span>
     <div class="columns" padding>
       <div class="column is-12 text-primary-faded" id="page-title" semiBold>
@@ -73,7 +66,7 @@
                 Install updates automatically
               </span>
               <span right class="edit pull-right">
-                  <ion-toggle ></ion-toggle>
+                  <ion-toggle checked></ion-toggle>
               </span>
             </div>
           </div>

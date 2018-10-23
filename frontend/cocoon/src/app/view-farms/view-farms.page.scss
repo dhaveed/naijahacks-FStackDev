@@ -1,0 +1,47 @@
+$white: #fff;
+$accent: #2EEED0;
+$primary: #4B4173;
+ion-content{
+    height: 100vh;
+    padding-top: 30%;
+}
+[semiBold]{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.main-area{
+    margin-top: 15%;
+}
+
+.text-primary-faded{
+    color: $primary;
+    opacity: 0.9;
+}
+.fade-text{
+    color: #ccc;
+}
+span[right]{
+    float: right;
+}
+
+.farm-img{
+    display: inline-block;
+    height: 100px;
+    width: 30%;
+    background: #ccc;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.farm-desc{
+    display: inline-block;
+    width: 70%;
+    height: 100px;
+    // border: 1px solid crimson;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background: $white;
+    box-shadow: 3px 0px 35px rgba(0, 0, 0, 0.07);
+
+}

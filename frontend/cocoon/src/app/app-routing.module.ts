@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'settings',
+    redirectTo: 'marketplace',
     pathMatch: 'full'
   },
   {
@@ -20,7 +20,8 @@ const routes: Routes = [
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'register', loadChildren: './register/register.module#RegisterPageModule' },
   { path: 'reset-password', loadChildren: './reset-password/reset-password.module#ResetPasswordPageModule' },
-  { path: 'marketplace', loadChildren: './marketplace/marketplace.module#MarketplacePageModule' }
+  { path: 'marketplace', loadChildren: './marketplace/marketplace.module#MarketplacePageModule' },
+  { path: 'view-farms', loadChildren: './view-farms/view-farms.module#ViewFarmsPageModule' }
 ];
 
 @NgModule({
