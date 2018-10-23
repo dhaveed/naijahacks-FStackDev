@@ -1,14 +1,13 @@
 # iFitFarm
-iFitFarm is platform for farmers to connect and sell their product.the application
-iFitFarm is platform for farmers and anyone with the interest being a farm to learn,communicate,
+iFitFarm is platform for farmers to connect and sell their products. The app also enables farmers and anyone with the interest being a farm to learn, communicate, and start a profitable farm with true ease
 
-## Problem Statement
+# Problem Statement
 
-## Solution
-
+# Solution
 
 
-#Features
+
+# Features
 	- An online marketplace for buying and selling farmers' farm produce.
 	- An online marketplace for buying and leasing farm inputs and implements such as seeds, fertilizers, poultry pens, farm land etc.
 	- A dashboard for farmers to monitor their farms' progess online.
@@ -22,7 +21,7 @@ iFitFarm is platform for farmers and anyone with the interest being a farm to le
 		- PHP
 		- MySQL
 
-## Team Members
+# Team Members
 	Below are the members of team FStackDev
 		- [Chinwokwu James](https://github.com/jamezzz123)
 		- [Moses Ayo Adeiza](https://github.com/ayomie)
