@@ -15,13 +15,14 @@ iFitFarm is platform for farmers to connect and sell their products. The app als
 # Our Stack
 	The technologies we're going to be employing in developing our application are:
 		- HTML
-		- SCSS / CSS
+		- SCSS / CSS [Bootstrap]
 		- Javascript / Typescript [Angular, Node.js]
 		- PHP
 		- MySQL
+		- Ionic 4
 
 # Team Members
 	Below are the members of team FStackDev
-		- [Chinwokwu James](https://github.com/jamezzz123)
+		- (Chinwokwu James)[https://github.com/jamezzz123]
 		- [Moses Ayo Adeiza](https://github.com/ayomie)
 		- [David Adegoke](https://github.com/dhaveed)
