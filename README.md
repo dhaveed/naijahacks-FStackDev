@@ -1,10 +1,9 @@
 # iFitFarm
 # Problem Statement
-There is lack of networking and mass illiteracy in the argricutural sector,depending on the location of the farmers business,some
-are most a times constrainted to the limited resources there location can provide,some dont have easy access to market 		place,others dont have enough knowledge for organize a good farming business.  
+As there is lack of networking and mass illiteracy in the argricutural sector in Nigeria, depending on the location of the farmers' business, some are most a times constrainted to the limited resources there location can provide, some dont have easy access to market place, others dont have enough knowledge for organizing a good farming business.  
 	
 # Solution
-iFitFarm is platform for farmers to connect and sell their products. The app also enables farmers and anyone with the interest 		being a farm to learn, communicate, and start a profitable farm with true ease
+iFitFarm is platform for farmers to network and sell their products. The app also enables farmers and anyone with the interest being a farm to learn, communicate, and start a profitable farm with true ease
 	
 # Features
 	- An online marketplace for buying and selling farmers' farm produce.
