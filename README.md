@@ -4,7 +4,7 @@ There is lack of networking and mass illiteracy in the argricutural sector,depen
 are most a times constrainted to the limited resources there location can provide,some dont have easy access to market 		place,others dont have enough knowledge for organize a good farming business.  
 	
 # Solution
-	iFitFarm is platform for farmers to connect and sell their products. The app also enables farmers and anyone with the interest 		being a farm to learn, communicate, and start a profitable farm with true ease
+iFitFarm is platform for farmers to connect and sell their products. The app also enables farmers and anyone with the interest 		being a farm to learn, communicate, and start a profitable farm with true ease
 	
 # Features
 	- An online marketplace for buying and selling farmers' farm produce.
