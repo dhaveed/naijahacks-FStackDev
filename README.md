@@ -1,13 +1,10 @@
 # iFitFarm
-iFitFarm is platform for farmers to connect and sell their products. The app also enables farmers and anyone with the interest being a farm to learn, communicate, and start a profitable farm with true ease
-
 # Problem Statement
-there is lack of networking and mass illiteracy in the argricutural sector,farmers are constrained to the resouces avaliable to their location, forcing farmers to prodce the same product all the time this has also hindered the interest of prospective farmers.
-
+	There is lack of networking and mass illiteracy in the argricutural sector,depending on the location of the farmers business,some	 are most a times constrainted to the limited resources there location can provide,some dont have easy access to market 		place,others dont have enough knowledge for organize a good farming business.  
+	
 # Solution
-
-
-
+	iFitFarm is platform for farmers to connect and sell their products. The app also enables farmers and anyone with the interest 		being a farm to learn, communicate, and start a profitable farm with true ease
+	
 # Features
 	- An online marketplace for buying and selling farmers' farm produce.
 	- An online marketplace for buying and leasing farm inputs and implements such as seeds, fertilizers, poultry pens, farm land etc.
