@@ -5,7 +5,7 @@ import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
-import { TabsComponent } from '../tabs/tabs.component';
+// import { TabsComponent } from '../tabs/tabs.component';
 
 @NgModule({
   imports: [
@@ -19,6 +19,6 @@ import { TabsComponent } from '../tabs/tabs.component';
       }
     ]),
   ],
-  declarations: [HomePage, TabsComponent]
+  declarations: [HomePage/* , TabsComponent */]
 })
 export class HomePageModule {}
