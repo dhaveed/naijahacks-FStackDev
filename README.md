@@ -22,6 +22,6 @@ iFitFarm is platform that helps newbie and experienced farmers to network and in
 
 # Team Members
 	Below are the members of team FStackDev
-		- (Chinwokwu James)[https://github.com/jamezzz123]
-		- [Moses Ayo Adeiza](https://github.com/ayomie)
-		- [David Adegoke](https://github.com/dhaveed)
+		- [Chinwokwu James] (https://github.com/jamezzz123)
+		- [Moses Ayo Adeiza] (https://github.com/ayomie)
+		- [David Adegoke] (https://github.com/dhaveed)
